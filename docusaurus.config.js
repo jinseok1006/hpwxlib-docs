@@ -9,11 +9,11 @@ const config = {
   tagline: '한글과컴퓨터의 HWPX 파일을 다루는 Java 라이브러리',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/hwpxlib/',
+  url: 'https://jinseok1006.github.io',
+  baseUrl: '/hpwxlib-docs/',
 
-  organizationName: 'your-org',
-  projectName: 'hwpxlib',
+  organizationName: 'jinseok1006',
+  projectName: 'hpwxlib-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -31,7 +31,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          editUrl: 'https://github.com/your-org/hwpxlib/tree/main/',
+          editUrl: 'https://github.com/jinseok1006/hpwxlib-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -60,12 +60,12 @@ const config = {
             docId: 'getting-started/introduction',
           },
           {
-            href: 'https://github.com/your-org/hwpxlib',
+            href: 'https://github.com/jinseok1006/hpwxlib-docs',
             label: 'GitHub',
             position: 'right',
           },
           {
-            href: 'https://github.com/your-org/hwpxlib/issues',
+            href: 'https://github.com/jinseok1006/hpwxlib-docs/issues',
             label: '이슈',
             position: 'right',
           },
@@ -96,11 +96,11 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-org/hwpxlib',
+                href: 'https://github.com/jinseok1006/hpwxlib-docs',
               },
               {
                 label: '이슈',
-                href: 'https://github.com/your-org/hwpxlib/issues',
+                href: 'https://github.com/jinseok1006/hpwxlib-docs/issues',
               },
             ],
           },
@@ -117,7 +117,7 @@ const config = {
               },
               {
                 label: 'API 문서',
-                to: '/references/api',
+                to: '/references/api-reference',
               },
             ],
           },
